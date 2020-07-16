@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Bootstrap Example</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body style="background-color: #333">
+		
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+		  <div class="container-fluid">
+			<div class="navbar-header container-fluid">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			  </button>
+			  <a class="navbar-brand" href="#">CRYPTO BAN</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">ГОЛОВНА</a></li>
+				<li><a href="#">ЩОСЬ</a></li>
+				<li><a href="#">ЦІНИ</a></li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="#" data-toggle="modal" data-target="#exampleModal"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		<div class="alert alert-danger alert-dismissible">
+		  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		  <strong>Увага!</strong> Сайт несе розважальний характер
+		</div>
+		<div class="container" style="color: #fff">
+		  <h3 style="text-align: center">Вперше на сайті?</h3>
+		  <a type="button" class="btn btn-success btn-lg btn-block">Зареєструйтесь</a>
+		  <h3 style="text-align: center">Щоб потрапити в особистий кабінет</h3>
+		  <a type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">Увійдіть</a>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				  <span aria-hidden="true">&times;</span>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<form action="usercab.html">
+				  <div class="form-row">
+					<div class="form-group col-md-6">
+					  <label for="inputEmail4">Email</label>
+					  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+					</div>
+					<div class="form-group col-md-6">
+					  <label for="inputPassword4">Password</label>
+					  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+					</div>
+  					</div>
+					<button type="submit" class="btn btn-primary btn-block">Sign in</button>
+				  </form>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</body>
+</html>
